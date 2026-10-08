@@ -21,7 +21,7 @@ Crear un repositorio vacío en GitHub y subir el contenido de esta carpeta, incl
 - `data/demographics.ts`: municipios y pirámide editable.
 - `data/budgets.ts`: series presupuestales y capítulos.
 - `data/simulator.ts`: parámetros y función pura.
-- `data/queretaro-geo.json`: 18 municipios, geometrías simplificadas.
+- `data/Querétaro-geo.json`: 18 municipios, geometrías simplificadas.
 
 ## Completar datos
 

@@ -77,7 +77,7 @@ const ageBands2025: AgeBand[] = [
 ].map(item => ({
   ...item,
   year: 2025,
-  status: 'Queretaro' as const
+  status: 'Querétaro' as const
 }));
 
 // Grupos de edad 2020
@@ -101,7 +101,7 @@ const ageBands2020: AgeBand[] = [
 ].map(item => ({
   ...item,
   year: 2020,
-  status: 'Queretaro' as const
+  status: 'Querétaro' as const
 }));
 
 // Exportación unificada de ambos años
