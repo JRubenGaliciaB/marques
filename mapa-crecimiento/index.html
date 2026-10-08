@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crecimiento poblacional de Querétaro</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Tasa de crecimiento poblacional 2020-2025</h1>
+      <p>Arrastra para girar y acerca el mapa para explorar.</p>
+      <div id="mode"></div>
+    </header>
+
+    <main id="map">
+      <aside>
+        <label>
+          Altura de los picos
+          <input
+            id="height"
+            type="range"
+            min="0.2"
+            max="2"
+            step="0.1"
+            value="1"
+          />
+        </label>
+
+        <button id="reset" type="button">Restablecer vista</button>
+        <button id="export" type="button">Descargar imagen</button>
+      </aside>
+
+      <div id="legend">
+        <div class="gradient"></div>
+        <div class="labels">
+          <span>≤ 0%</span>
+          <span id="maximum"></span>
+        </div>
+        <p>Gris: sin dato. Los valores negativos no generan pico.</p>
+      </div>
+
+      <div id="tip" hidden></div>
+    </main>
+
+    <footer>
+      <span id="count"></span>
+    </footer>
+
+    <script type="module" src="./main.ts"></script>
+  </body>
+</html>
